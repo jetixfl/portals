@@ -36,7 +36,7 @@ Run redirect.sh as root
 
 ### Demo
 
-https://user-images.githubusercontent.com/13497504/162899176-ff72aab1-5a1b-40f5-8740-134dc4af42a8.mp4
+
 
 ### Notes
 

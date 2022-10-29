@@ -1,6 +1,6 @@
 ## eviltwin-portals
 
-Evil twin captive portals using Android
+get wifi password using Android captive portals
 
 ### Requirements
 

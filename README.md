@@ -1,4 +1,4 @@
-## fake-hotspot
+## eviltwin-portals
 
 Evil twin captive portals using Android
 

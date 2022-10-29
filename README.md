@@ -1,6 +1,6 @@
-## android-portals
+## fake-hotspot
 
-Credential phishing using Android Hotspot Captive Portals
+Evil twin captive portals using Android
 
 ### Requirements
 
@@ -22,15 +22,17 @@ Set security to None
 
 Rename hotspot as desired
 
-Run redirect.sh as root
-
 `cd android-portals`
 
-`sudo ./redirect.sh`
+Run redirect.sh as root
+
+`su`
+`bash redirect.sh`
+`exit` to exit from root
 
 ### Running web server
 
-`cd example`
+`cd simple`
 
 `php -S 0.0.0.0:8080`
 
@@ -40,7 +42,6 @@ Run redirect.sh as root
 
 ### Notes
 
-Tested on Sony Xperia XZ1 Compact LineageOS 17.1 with Magisk
 
 Hotspot fails to trigger "Tap here to sign in to network" without internet; Turning on Mobile data without load worked for me
 

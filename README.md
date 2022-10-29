@@ -28,7 +28,7 @@ Run redirect.sh as root
 
 `su`
 `bash redirect.sh`
-`exit` to exit from root
+`exit` exit from root
 
 ### Running web server
 

@@ -22,7 +22,7 @@ Set security to None
 
 Rename hotspot as desired
 
-`cd android-portals`
+`cd eviltwin-portals`
 
 Run redirect.sh as root
 

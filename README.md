@@ -36,7 +36,6 @@ Run redirect.sh as root
 
 `php -S 0.0.0.0:8080`
 
-### Demo
 
 
 

